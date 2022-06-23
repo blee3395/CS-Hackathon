@@ -22,6 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
       chrome.tabs.executeScript(null,
             {code: 'toggleBlur('+'".liYKde"'+');'});
     })
+    document.querySelector('#products').addEventListener('click', function() {
+      chrome.tabs.executeScript(null,
+            {code: 'toggleBlur('+'".T98FId"'+');'});
+    })
     document.querySelector('#related').addEventListener('click', function() {
       chrome.tabs.executeScript(null,
             {code: 'toggleBlur('+'".oIk2Cb"'+');'});

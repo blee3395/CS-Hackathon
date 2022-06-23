@@ -5,6 +5,7 @@ const DOMtypes = {
   'locations': ['.D1Lyfe'],
   'news': ['.yG4QQe'], // '.TBC9u'
   'pane': ['.liYKde'], // '.VjDLd'
+  'products':['.T98FId'],
   'related': ['.oIk2Cb'],
   'twitter': ['.eejeod'],
   'video': ['.uVMCKf'], // .aNytqb
