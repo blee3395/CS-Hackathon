@@ -1,11 +1,20 @@
 const DOMtypes = {
   'ad': ['.vdQmEd'], // '.fP1Qef', '.EtOod', '.pkphOe'
   'ad2': ['.DUkiH'], // '.cu-container'
+  'alsoAsk': ['.AuVD'], // '.cUnQKe
+  'locations': ['.D1Lyfe'],
   'news': ['.yG4QQe'], // '.TBC9u'
   'pane': ['.liYKde'], // '.VjDLd'
   'related': ['.oIk2Cb'],
   'twitter': ['.eejeod'],
+  'video': ['.uVMCKf'], // .aNytqb
 };
+
+// replace Google logo with old google logo
+const logo = document.querySelector('#logo');
+const logoImg = logo.firstChild
+console.log(logoImg)
+logoImg.setAttribute('src', 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/09/01/17/Google_Logo_Old.png?quality=75&width=1368&auto=webp')
 
 for (const key in DOMtypes) {
   for (let i = 0; i < DOMtypes[key].length; i++ ) {
