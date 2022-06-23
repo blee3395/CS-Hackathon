@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Focus",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16" : "src/eyeglasses.svg",
+      "24" : "src/eyeglasses.svg",
+      "32" : "src/eyeglasses.svg"
+    },
+    "default_popup": "menu.html",
+    "default_title": "Focus blur"
+  },
+
+  "content_scripts": [
+    {
+      "run_at" : "document_idle",
+      "matches": ["https://www.google.com/search?*"],
+      "js": ["./main.js"]
+    }
+  ]
+}

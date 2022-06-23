@@ -1,0 +1,52 @@
+.header {
+  font-family: 'Smooch', cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.body {
+    background-color: rgb(3,157,171);
+    /* border: 5px solid black;
+    border-radius: ; */
+}
+
+.grid {
+    display:grid;
+    width: 100px;
+}
+
+.row {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+}
+
+
+/* .toggle {
+    width: 95px;
+} */
+
+button {
+    background-color: rgb(140,40,123);
+    color: white;
+    border: none;
+    width: 100%;
+    font-family: 'Smooch';
+}
+
+button:hover {
+  background-color: rgb(4,28,94);
+  cursor: pointer;
+
+}
+
+button:active {
+  background-color: rgb(92, 13, 79);
+}
+
+button:not(:focus) {
+  background-color: rgb(140,40,123);
+}
