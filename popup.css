@@ -8,13 +8,15 @@
     background-color: rgb(3,157,171);
 
     background-image: url(src/solo-jazz.jpeg);
-    background-size: 300px 350px
+    background-size: 200px 230px
     /* border: 5px solid black;
     border-radius: ; */
 }
 
 .grid {
     display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
     width: 150px;
 }
 
