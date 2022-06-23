@@ -1,17 +1,18 @@
 const DOMtypes = {
   'ad': ['.vdQmEd'], // '.fP1Qef', '.EtOod', '.pkphOe'
+  'ad2': ['.DUkiH'], // '.cu-container'
+  'news': ['.yG4QQe'], // '.TBC9u'
   'pane': ['.liYKde'], // '.VjDLd'
+  'related': ['.oIk2Cb'],
   'twitter': ['.eejeod'],
 };
 
 for (const key in DOMtypes) {
-    console.log(key)
   for (let i = 0; i < DOMtypes[key].length; i++ ) {
     let curClass = DOMtypes[key][i];
     console.log(curClass)
     const contents = document.querySelector(curClass);
     if (contents !== null) {
-      // toggleBlur(curClass)
       contents.style.transitionDuration = '1000ms';
       contents.style.filter = 'blur(16px)';
       for (const node of contents.childNodes) {
