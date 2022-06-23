@@ -6,13 +6,16 @@
 
 .body {
     background-color: rgb(3,157,171);
+
+    background-image: url(src/solo-jazz.jpeg);
+    background-size: 200px 200px
     /* border: 5px solid black;
     border-radius: ; */
 }
 
 .grid {
     display:grid;
-    width: 100px;
+    width: 150px;
 }
 
 .row {
@@ -23,11 +26,6 @@
     margin-bottom: 4px;
     
 }
-
-
-/* .toggle {
-    width: 95px;
-} */
 
 button {
     background-color: rgb(140,40,123);
